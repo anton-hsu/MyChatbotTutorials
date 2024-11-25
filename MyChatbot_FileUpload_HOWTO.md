@@ -2,7 +2,7 @@
 
 MyChatbot使用時的第一個步驟是要上傳檔案，檔案上傳了才能選擇已經上傳的檔案來建立知識庫。
 上傳檔案可用HTTP REQUEST或是S3。
-使用HTTP上傳會有續傳的問題所以建議使用 S3。
+使用HTTP上傳會有續傳的問題所以建議使用 S3，請參考[Sample Code](Knowledge_SampleCode.py)。
 
 * [/api/vl/datasets/{datasetId}/documents/create_by_upload](https://afs-mychatbot-api.twcc.ai/api/v1/docs/ffm-knowledge-management#/documents/DocumentHttpController_createDocumentByUpload)
 這個API實作了file upload + create by file，是利用 HTTP 上傳檔案時使用的 API，如果使用 S3 並不需要使用這隻API來建立知識庫。
