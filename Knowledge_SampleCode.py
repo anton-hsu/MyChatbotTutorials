@@ -3,6 +3,9 @@
 
 # In[1]:
 
+# ver 1.0 created by ASUS OCIS team
+# Author: Scott
+# Revised: Anton
 
 import requests
 import json
